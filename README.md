@@ -1,6 +1,4 @@
-﻿# 🚀 AI Research Lab Website
-
-![Banner](https://capsule-render.vercel.app/api?type=waving\&color=0:1e3c72,100:2a5298\&height=200\&section=header\&text=AI%20Research%20Lab\&fontSize=40\&fontColor=ffffff)
+﻿![Banner](https://capsule-render.vercel.app/api?type=waving\&color=0:1e3c72,100:2a5298\&height=200\&section=header\&text=AI%20Research%20Lab\&fontSize=40\&fontColor=ffffff)
 
 ## 🌐 Live Demo
 
