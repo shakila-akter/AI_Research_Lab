@@ -1,0 +1,1139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Research Lab | CIS Department</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ======================================================================
+     NAVIGATION BAR
+     Anchor links (#home, #about, etc.) scroll to each section smoothly.
+     class="active" highlights the current section link.
+     position: sticky in CSS keeps it visible while scrolling.
+====================================================================== -->
+<nav id="navbar">
+  <div class="nav-inner">
+
+    <!-- Logo / Brand -->
+    <a href="#home" class="nav-brand">
+      <div class="brand-icon">🤖</div>
+      <div class="brand-text">
+        <span>AI Research Lab</span>
+        <span>CIS Department</span>
+      </div>
+    </a>
+
+    <!-- Navigation Links — anchor tags scroll to section ids -->
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#research">Research</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#publications">Publications</a></li>
+      <li><a href="#team">Team</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+  </div>
+</nav>
+
+
+<!-- ======================================================================
+     SECTION 1: HOME (Hero)
+     id="home" — anchor link #home scrolls here
+====================================================================== -->
+<section id="home" style="padding: 0;">
+
+  <!-- Hero Banner -->
+  <div id="home" style="
+    background: linear-gradient(140deg, #0f2545 0%, #1a4a8a 55%, #1f5da6 100%);
+    color: #fff;
+    padding: 100px 28px 80px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;">
+
+    <!-- Decorative blobs (pure CSS circles via ::before/::after handled in CSS) -->
+
+    <div class="hero-badge"> CIS Department — University of Technology</div>
+
+    <h1 class="hero-title">AI <span>Research</span> Lab</h1>
+
+    <p class="hero-subtitle">
+      Artificial Intelligence &amp; Machine Learning Research Laboratory
+    </p>
+
+    <p class="hero-mission">
+      We push the boundaries of Artificial Intelligence through cutting-edge research
+      in Machine Learning, Deep Learning, Computer Vision, NLP, and Robotics —
+      transforming ideas into intelligent solutions that benefit humanity.
+    </p>
+
+    <div class="hero-buttons">
+      <a href="#research" class="btn btn-primary"> Explore Research</a>
+      <a href="#contact"  class="btn btn-outline"> Join the Lab</a>
+    </div>
+
+    <!-- Banner image placeholder -->
+    <!-- <div class="banner-placeholder">
+      <div>
+        <span class="ph-icon"></span>
+        <strong>Lab Banner Image</strong><br />
+        Replace with: &lt;img src="banner.jpg" alt="Lab Banner" style="width:100%; border-radius:10px;"&gt;
+      </div>
+    </div> -->
+
+  </div>
+
+  <!-- Statistics Row (outside the dark hero, on gray background) -->
+  <!-- <div class="stats-row">
+
+    <div class="stat-card">
+      <span class="num">12+</span>
+      <span class="lbl">Researchers</span>
+    </div>
+
+    <div class="stat-card">
+      <span class="num">35+</span>
+      <span class="lbl">Publications</span>
+    </div>
+
+    <div class="stat-card">
+      <span class="num">8</span>
+      <span class="lbl">Active Projects</span>
+    </div>
+
+    <div class="stat-card">
+      <span class="num">6</span>
+      <span class="lbl">Research Areas</span>
+    </div>
+
+    <div class="stat-card">
+      <span class="num">$2M+</span>
+      <span class="lbl">Funding Secured</span>
+    </div>
+
+    <div class="stat-card">
+      <span class="num">5</span>
+      <span class="lbl">Industry Partners</span>
+    </div>
+
+  </div> -->
+
+</section>
+
+
+<!-- ======================================================================
+     SECTION 2: ABOUT
+     id="about" — anchor link #about scrolls here
+====================================================================== -->
+<section id="about">
+  <div class="container">
+
+    <h2 class="section-title"> About Our Lab</h2>
+    <p class="section-sub">Our history, vision, goals, and the values that drive us</p>
+    <div class="divider"></div>
+
+    <!-- Two-column: background text + milestone timeline -->
+    <div class="about-grid">
+
+      <!-- Left: Background text -->
+      <div class="about-text">
+        <p>
+          The <strong>AI Research Lab</strong> was established in <strong>2010</strong> within
+          the Department of Computer and Information Science (CIS) at the University of Technology.
+          What began as a small team of three faculty members and ten graduate students has grown
+          into one of the most recognized AI research centers in the region.
+        </p>
+        <p>
+          Over 15 years, our lab has published <strong>35+ research papers</strong> at top-tier
+          venues including NeurIPS, ICML, CVPR, ACL, and AAAI. We have secured over
+          <strong>$2 million</strong> in grants from government agencies and industry partners.
+        </p>
+        <p>
+          Our lab is proudly interdisciplinary, welcoming researchers from computer science,
+          mathematics, engineering, and cognitive science backgrounds.
+        </p>
+      </div>
+
+      <!-- Right: Key Milestones box -->
+      <div class="milestone-box">
+        <h3> Key Milestones</h3>
+        <ul>
+          <li> <strong>2010</strong> — Lab founded with 3 faculty members</li>
+          <li> <strong>2013</strong> — First international paper published</li>
+          <li> <strong>2015</strong> — First government grant ($200K)</li>
+          <li> <strong>2017</strong> — Robotics wing established</li>
+          <li> <strong>2019</strong> — Industry partnership signed</li>
+          <li> <strong>2021</strong> — GPU cluster upgraded (128 GPUs)</li>
+          <li> <strong>2023</strong> — 50+ publications milestone</li>
+          <li> <strong>2025</strong> — Best Paper Award at ICML</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Vision quote -->
+    <h2 class="section-title"> Our Vision</h2>
+    <div class="divider"></div>
+    <div class="vision-box">
+      "To be a globally recognized center of excellence in Artificial Intelligence research,
+       bridging the gap between cutting-edge theory and real-world applications
+       for the benefit of society."
+    </div>
+
+    <!-- Goals grid -->
+    <h2 class="section-title"> Our Goals</h2>
+    <div class="divider"></div>
+    <div class="cards-grid">
+
+      <div class="info-card">
+        <h3> Advance Research</h3>
+        <p>Publish world-class research at top-tier international venues and contribute to the global AI knowledge base.</p>
+      </div>
+
+      <div class="info-card">
+        <h3> Train Future Leaders</h3>
+        <p>Mentor the next generation of AI researchers and engineers through rigorous graduate programs.</p>
+      </div>
+
+      <div class="info-card">
+        <h3>Industry Collaboration</h3>
+        <p>Partner with industry to apply AI research to real-world problems in healthcare, agriculture, and finance.</p>
+      </div>
+
+      <div class="info-card">
+        <h3> Open Science</h3>
+        <p>Share our tools, datasets, and findings openly to promote collaborative growth in the AI community.</p>
+      </div>
+
+      <div class="info-card">
+        <h3> Ethical AI</h3>
+        <p>Promote responsible, fair, transparent, and accountable AI in all our research and applications.</p>
+      </div>
+
+      <div class="info-card">
+        <h3>Excellence</h3>
+        <p>Foster a culture of intellectual curiosity, creativity, and relentless pursuit of excellence.</p>
+      </div>
+
+    </div>
+
+    <!-- Core Values row -->
+    <!-- <div class="values-row">
+
+      <div class="value-chip">
+        <div class="v-icon">🔍</div>
+        <strong>Integrity</strong>
+        <p>Honest and transparent research</p>
+      </div>
+
+      <div class="value-chip">
+        <div class="v-icon"></div>
+        <strong>Innovation</strong>
+        <p>Bold and creative ideas</p>
+      </div>
+
+      <div class="value-chip">
+        <div class="v-icon"></div>
+        <strong>Collaboration</strong>
+        <p>Teamwork across disciplines</p>
+      </div>
+
+      <div class="value-chip">
+        <div class="v-icon"></div>
+        <strong>Impact</strong>
+        <p>Research that matters</p>
+      </div>
+
+      <div class="value-chip">
+        <div class="v-icon"></div>
+        <strong>Ethics</strong>
+        <p>Responsible AI for all</p>
+      </div>
+
+    </div> -->
+
+  </div>
+</section>
+
+
+<!-- ======================================================================
+     SECTION 3: RESEARCH AREAS
+     id="research" — anchor link #research scrolls here
+====================================================================== -->
+<section id="research">
+  <div class="container">
+
+    <h2 class="section-title">🔬 Research Areas</h2>
+    <p class="section-sub">Six core areas of AI and Machine Learning investigation</p>
+    <div class="divider"></div>
+
+    <!-- CSS Grid: each card gets its own unique top-border color via nth-child in CSS -->
+    <div class="research-grid">
+
+      <!-- 1. Machine Learning -->
+      <div class="research-card">
+        <span class="rc-icon"></span>
+        <h3>Machine Learning</h3>
+        <p>
+          We develop algorithms that enable computers to learn from data without being
+          explicitly programmed. Our work covers supervised, unsupervised, reinforcement,
+          and federated learning approaches.
+        </p>
+        <div>
+          <span class="tag">Supervised Learning</span>
+          <span class="tag">Reinforcement Learning</span>
+          <span class="tag">AutoML</span>
+          <span class="tag">Federated Learning</span>
+        </div>
+        <div class="prog-wrap">
+          <div class="prog-fill" style="width:90%; background:#1c4f9c;"></div>
+        </div>
+        <div class="prog-label"><span>Activity Level</span><span>90%</span></div>
+      </div>
+
+      <!-- 2. Deep Learning -->
+      <div class="research-card">
+        <span class="rc-icon"></span>
+        <h3>Deep Learning</h3>
+        <p>
+          We design and train deep neural networks from classic CNNs and RNNs to modern
+          Transformer architectures, focusing on efficiency, interpretability, and edge
+          device deployment.
+        </p>
+        <div>
+          <span class="tag">CNNs</span>
+          <span class="tag">Transformers</span>
+          <span class="tag">GANs</span>
+          <span class="tag">Model Compression</span>
+        </div>
+        <div class="prog-wrap">
+          <div class="prog-fill" style="width:85%; background:#e74c3c;"></div>
+        </div>
+        <div class="prog-label"><span>Activity Level</span><span>85%</span></div>
+      </div>
+
+      <!-- 3. Computer Vision -->
+      <div class="research-card">
+        <span class="rc-icon"></span>
+        <h3>Computer Vision</h3>
+        <p>
+          We teach machines to understand visual information from images and video.
+          Research spans object detection, image segmentation, face recognition,
+          and 3D scene reconstruction.
+        </p>
+        <div>
+          <span class="tag">Object Detection</span>
+          <span class="tag">Segmentation</span>
+          <span class="tag">3D Reconstruction</span>
+          <span class="tag">Video Analysis</span>
+        </div>
+        <div class="prog-wrap">
+          <div class="prog-fill" style="width:80%; background:#27ae60;"></div>
+        </div>
+        <div class="prog-label"><span>Activity Level</span><span>80%</span></div>
+      </div>
+
+      <!-- 4. NLP -->
+      <div class="research-card">
+        <span class="rc-icon"></span>
+        <h3>Natural Language Processing</h3>
+        <p>
+          NLP enables machines to read, understand, and generate human language.
+          We work on machine translation, sentiment analysis, question answering,
+          and large language models (LLMs).
+        </p>
+        <div>
+          <span class="tag">Machine Translation</span>
+          <span class="tag">Sentiment Analysis</span>
+          <span class="tag">LLMs</span>
+          <span class="tag">Text Summarization</span>
+        </div>
+        <div class="prog-wrap">
+          <div class="prog-fill" style="width:75%; background:#8e44ad;"></div>
+        </div>
+        <div class="prog-label"><span>Activity Level</span><span>75%</span></div>
+      </div>
+
+      <!-- 5. Robotics -->
+      <div class="research-card">
+        <span class="rc-icon"></span>
+        <h3>Robotics</h3>
+        <p>
+          We build intelligent robots that perceive their environment, plan actions,
+          and interact safely with humans. Key areas include SLAM, motion planning,
+          and human-robot interaction.
+        </p>
+        <div>
+          <span class="tag">SLAM</span>
+          <span class="tag">Motion Planning</span>
+          <span class="tag">HRI</span>
+          <span class="tag">Manipulation</span>
+        </div>
+        <div class="prog-wrap">
+          <div class="prog-fill" style="width:65%; background:#e67e22;"></div>
+        </div>
+        <div class="prog-label"><span>Activity Level</span><span>65%</span></div>
+      </div>
+
+      <!-- 6. Data Science -->
+      <div class="research-card">
+        <span class="rc-icon"></span>
+        <h3>Data Science</h3>
+        <p>
+          Data science forms the backbone of all our research. We focus on big data
+          analytics, statistical modeling, data visualization, and scalable pipelines
+          for large-scale datasets.
+        </p>
+        <div>
+          <span class="tag">Big Data</span>
+          <span class="tag">Visualization</span>
+          <span class="tag">Statistical Modeling</span>
+          <span class="tag">Data Pipelines</span>
+        </div>
+        <div class="prog-wrap">
+          <div class="prog-fill" style="width:70%; background:#16a085;"></div>
+        </div>
+        <div class="prog-label"><span>Activity Level</span><span>70%</span></div>
+      </div>
+
+    </div>
+
+    <!-- Technologies row -->
+    <div class="tech-row">
+      <span class="tech-pill"> Python</span>
+      <span class="tech-pill"> PyTorch</span>
+      <span class="tech-pill"> TensorFlow</span>
+      <span class="tech-pill"> HuggingFace</span>
+      <span class="tech-pill"> scikit-learn</span>
+      <span class="tech-pill"> OpenCV</span>
+      <span class="tech-pill"> ROS</span>
+      <span class="tech-pill"> AWS / GCP</span>
+      <span class="tech-pill"> CUDA</span>
+      <span class="tech-pill"> Jupyter</span>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ======================================================================
+     SECTION 4: PROJECTS
+     id="projects" — anchor link #projects scrolls here
+====================================================================== -->
+<section id="projects">
+  <div class="container">
+
+    <h2 class="section-title"> Research Projects</h2>
+    <p class="section-sub">Active and completed research projects across all AI domains</p>
+    <div class="divider"></div>
+
+    <div class="projects-grid">
+
+      <!-- PROJECT 1 -->
+      <div class="project-card">
+        <div class="proj-banner" style="background: linear-gradient(135deg, #0f2545, #1c4f9c);"></div>
+        <div class="proj-body">
+          <span class="badge badge-active">● Active</span>
+          <h3>MediVision: AI-Powered Medical Image Diagnosis</h3>
+          <p>
+            A deep learning system that assists radiologists in diagnosing diseases from
+            X-ray, MRI, and CT scan images using a custom CNN architecture trained on
+            500,000+ annotated medical images. Current chest X-ray accuracy: <strong>96.3%</strong>.
+          </p>
+          <p>Currently in clinical trial phase at three partner hospitals; deployment expected 2026.</p>
+          <div>
+            <span class="tag">PyTorch</span>
+            <span class="tag">CNN</span>
+            <span class="tag">Transfer Learning</span>
+            <span class="tag">DICOM</span>
+            <span class="tag">Python</span>
+          </div>
+          <div class="proj-meta">
+            <span><strong>Started:</strong> Jan 2023</span>
+            <span><strong>Lead:</strong> Dr. Sarah Chen</span>
+            <span> <strong>Grant:</strong> $350,000</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- PROJECT 2 -->
+      <div class="project-card">
+        <div class="proj-banner" style="background: linear-gradient(135deg, #145a32, #27ae60);"></div>
+        <div class="proj-body">
+          <span class="badge badge-active">● Active</span>
+          <h3>AgriBot: Smart Agricultural Robot</h3>
+          <p>
+            An autonomous ground robot with computer vision and ML to monitor crop health,
+            detect pests, and automate irrigation using SLAM navigation.
+            Field tests showed a <strong>40% reduction</strong> in pesticide use.
+          </p>
+          <p>Deployed across 5 partner farms; expanding to 20 farms by end of 2025.</p>
+          <div>
+            <span class="tag">ROS</span>
+            <span class="tag">SLAM</span>
+            <span class="tag">OpenCV</span>
+            <span class="tag">Raspberry Pi</span>
+          </div>
+          <div class="proj-meta">
+            <span> <strong>Started:</strong> Mar 2023</span>
+            <span> <strong>Lead:</strong> Prof. Ahmed Hassan</span>
+            <span> <strong>Grant:</strong> $280,000</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- PROJECT 3 -->
+      <div class="project-card">
+        <div class="proj-banner" style="background: linear-gradient(135deg, #4a235a, #8e44ad);"></div>
+        <div class="proj-body">
+          <span class="badge badge-ongoing"> Ongoing</span>
+          <h3>BanglaLLM: Large Language Model for Bangla</h3>
+          <p>
+            A large language model trained specifically on Bangla (Bengali) text addressing
+            the critical lack of AI tools for low-resource South Asian languages.
+            Pre-trained on <strong>50GB</strong> of Bangla text data.
+          </p>
+          <p>Fine-tuned for summarization, translation, and question answering tasks.</p>
+          <div>
+            <span class="tag">Transformer</span>
+            <span class="tag">HuggingFace</span>
+            <span class="tag">BERT</span>
+            <span class="tag">NLP</span>
+          </div>
+          <div class="proj-meta">
+            <span><strong>Started:</strong> Jun 2024</span>
+            <span> <strong>Lead:</strong> Dr. Maria Lopez</span>
+            <span> <strong>Grant:</strong> $220,000</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- PROJECT 4 -->
+      <!-- <div class="project-card">
+        <div class="proj-banner" style="background: linear-gradient(135deg, #7b241c, #e74c3c);">🛡️</div>
+        <div class="proj-body">
+          <span class="badge badge-completed">✔ Completed</span>
+          <h3>CyberShield: AI-Based Intrusion Detection System</h3>
+          <p>
+            A machine learning-based network intrusion detection system using ensemble learning
+            and anomaly detection to identify cyberattacks in real time.
+            Achieved <strong>98.7% accuracy</strong> on the UNSW-NB15 benchmark.
+          </p>
+          <p>Open-sourced on GitHub; adopted by 3 commercial security firms (1,200+ stars).</p>
+          <div>
+            <span class="tag">scikit-learn</span>
+            <span class="tag">Random Forest</span>
+            <span class="tag">Anomaly Detection</span>
+            <span class="tag">Network Security</span>
+          </div>
+          <div class="proj-meta">
+            <span> <strong>Completed:</strong> Dec 2023</span>
+            <span> <strong>Lead:</strong> Dr. James Wright</span>
+            <span><strong>Grant:</strong> $180,000</span>
+          </div>
+        </div>
+      </div>
+
+    </div> -->
+
+    <!-- Project summary stats -->
+    <!-- <div class="proj-stats">
+      <div class="ps-item"><span class="ps-num">8</span><span class="ps-lbl">Active Projects</span></div>
+      <div class="ps-item"><span class="ps-num">12</span><span class="ps-lbl">Completed</span></div>
+      <div class="ps-item"><span class="ps-num">$2M+</span><span class="ps-lbl">Total Funding</span></div>
+      <div class="ps-item"><span class="ps-num">5</span><span class="ps-lbl">Industry Partners</span></div>
+    </div> -->
+
+  </div>
+</section>
+
+
+<!-- ======================================================================
+     SECTION 5: PUBLICATIONS
+     id="publications" — anchor link #publications scrolls here
+====================================================================== -->
+<section id="publications">
+  <div class="container">
+
+    <h2 class="section-title"> Publications</h2>
+    <p class="section-sub">Research papers published in top-tier international conferences and journals</p>
+    <div class="divider"></div>
+
+    <!-- ---- Year 2025 ---- -->
+    <div class="year-group">
+      <h3 class="year-heading"> 2025</h3>
+
+      <div class="pub-item">
+        <div class="pub-title">Efficient Transformer Architectures for Edge Device Inference</div>
+        <div class="pub-authors">Sarah Chen, Ahmed Hassan, James Wright, Maria Lopez</div>
+        <div class="pub-venue">International Conference on Machine Learning (ICML 2025) — 🏆 Best Paper Award</div>
+        <div style="margin-top:8px;">
+          <span class="tag">Deep Learning</span>
+          <span class="tag">Transformers</span>
+          <span class="tag">Model Compression</span>
+        </div>
+      </div>
+
+      <div class="pub-item">
+        <div class="pub-title">BanglaLLM: A Pre-trained Language Model for the Bangla Language</div>
+        <div class="pub-authors">Maria Lopez, Priya Sharma, Ahmed Hassan</div>
+        <div class="pub-venue">Annual Conference of the Association for Computational Linguistics (ACL 2025)</div>
+        <div style="margin-top:8px;">
+          <span class="tag">NLP</span>
+          <span class="tag">LLM</span>
+          <span class="tag">Low-Resource Languages</span>
+        </div>
+      </div>
+
+      <div class="pub-item">
+        <div class="pub-title">MediVision: Real-Time Chest X-Ray Classification Using Deep Convolutional Networks</div>
+        <div class="pub-authors">Sarah Chen, Priya Sharma, Li Wei, James Wright</div>
+        <div class="pub-venue">IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2025)</div>
+        <div style="margin-top:8px;">
+          <span class="tag">Computer Vision</span>
+          <span class="tag">Medical AI</span>
+          <span class="tag">CNN</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---- Year 2024 ---- -->
+    <div class="year-group">
+      <h3 class="year-heading"> 2024</h3>
+
+      <div class="pub-item">
+        <div class="pub-title">SLAM-Based Autonomous Navigation for Agricultural Robots in Unstructured Environments</div>
+        <div class="pub-authors">Ahmed Hassan, James Wright, Li Wei</div>
+        <div class="pub-venue">IEEE International Conference on Robotics and Automation (ICRA 2024)</div>
+        <div style="margin-top:8px;">
+          <span class="tag">Robotics</span>
+          <span class="tag">SLAM</span>
+          <span class="tag">Navigation</span>
+        </div>
+      </div>
+
+      <div class="pub-item">
+        <div class="pub-title">Federated Learning with Differential Privacy for Healthcare Data Analysis</div>
+        <div class="pub-authors">Priya Sharma, Sarah Chen, Maria Lopez</div>
+        <div class="pub-venue">Advances in Neural Information Processing Systems (NeurIPS 2024)</div>
+        <div style="margin-top:8px;">
+          <span class="tag">Federated Learning</span>
+          <span class="tag">Privacy</span>
+          <span class="tag">Healthcare AI</span>
+        </div>
+      </div>
+
+      <div class="pub-item">
+        <div class="pub-title">Graph Neural Networks for Social Network Misinformation Detection</div>
+        <div class="pub-authors">Li Wei, Maria Lopez, Ahmed Hassan</div>
+        <div class="pub-venue">AAAI Conference on Artificial Intelligence (AAAI 2024)</div>
+        <div style="margin-top:8px;">
+          <span class="tag">Graph Neural Networks</span>
+          <span class="tag">Misinformation</span>
+          <span class="tag">Social Media</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---- Year 2023 ---- -->
+    <div class="year-group">
+      <h3 class="year-heading"> 2023</h3>
+
+      <div class="pub-item">
+        <div class="pub-title">CyberShield: Ensemble Learning for Real-Time Network Intrusion Detection</div>
+        <div class="pub-authors">James Wright, Priya Sharma, Sarah Chen</div>
+        <div class="pub-venue">IEEE Symposium on Security and Privacy (S&amp;P 2023)</div>
+        <div style="margin-top:8px;">
+          <span class="tag">Cybersecurity</span>
+          <span class="tag">Ensemble Learning</span>
+          <span class="tag">Anomaly Detection</span>
+        </div>
+      </div>
+
+      <div class="pub-item">
+        <div class="pub-title">Attention-Based Sentiment Analysis for Code-Mixed Bangla-English Text</div>
+        <div class="pub-authors">Maria Lopez, Li Wei</div>
+        <div class="pub-venue">Empirical Methods in Natural Language Processing (EMNLP 2023)</div>
+        <div style="margin-top:8px;">
+          <span class="tag">NLP</span>
+          <span class="tag">Sentiment Analysis</span>
+          <span class="tag">Attention Mechanism</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Publication statistics -->
+    <div class="pub-stats">
+      <div class="ps-item">
+        <span class="ps-num">35+</span>
+        <span class="ps-lbl">Total Papers</span>
+      </div>
+      <div class="ps-item">
+        <span class="ps-num">1,200+</span>
+        <span class="ps-lbl">Total Citations</span>
+      </div>
+      <div class="ps-item">
+        <span class="ps-num">18</span>
+        <span class="ps-lbl">h-index</span>
+      </div>
+      <div class="ps-item">
+        <span class="ps-num">3</span>
+        <span class="ps-lbl">Best Paper Awards</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ======================================================================
+     SECTION 6: TEAM
+     id="team" — anchor link #team scrolls here
+====================================================================== -->
+<!-- <section id="team">
+  <div class="container">
+
+    <h2 class="section-title"> Our Team</h2>
+    <p class="section-sub">Meet the researchers and students who make the lab great</p>
+    <div class="divider"></div>
+
+    <!-- Faculty heading -->
+    <h3 style="color: var(--navy); font-size:20px; margin-bottom:26px; text-align:center;">
+      Faculty &amp; Senior Researchers
+    </h3>
+
+    <!-- Faculty grid using Flexbox -->
+  <!-- ===== TEAM SECTION ===== -->
+<div class="container my-5">
+
+  <div class="row g-4 team-grid">
+
+    <!-- Faculty 1 -->
+    <div class="col-md-4">
+      <div class="team-card text-center p-3">
+        <img src="images/member1.jpg" class="rounded-circle mb-2" width="100" height="100">
+        <h3>Dr. Sarah Chen</h3>
+        <p class="role">Lab Director & Professor</p>
+        <p>Expert in Computer Vision & Medical AI.</p>
+        <div class="mb-2">
+          <span class="tag">Computer Vision</span>
+          <span class="tag">Medical AI</span>
+        </div>
+        <div class="social-row">
+          <a href="#">Scholar</a>
+          <a href="#">LinkedIn</a>
+          <a href="#">Email</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Faculty 2 -->
+    <div class="col-md-4">
+      <div class="team-card text-center p-3">
+        <img src="images/member2.jpg" class="rounded-circle mb-2" width="100" height="100">
+        <h3>Prof. Ahmed Hassan</h3>
+        <p class="role">Associate Professor</p>
+        <p>Robotics & Reinforcement Learning.</p>
+        <div class="mb-2">
+          <span class="tag">Robotics</span>
+          <span class="tag">RL</span>
+        </div>
+        <div class="social-row">
+          <a href="#">Scholar</a>
+          <a href="#">LinkedIn</a>
+          <a href="#">Email</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Faculty 3 -->
+    <div class="col-md-4">
+      <div class="team-card text-center p-3">
+        <img src="images/member3.jpg" class="rounded-circle mb-2" width="100" height="100">
+        <h3>Dr. Maria Lopez</h3>
+        <p class="role">Assistant Professor</p>
+        <p>NLP & Multilingual AI.</p>
+        <div class="mb-2">
+          <span class="tag">NLP</span>
+          <span class="tag">Multilingual AI</span>
+        </div>
+        <div class="social-row">
+          <a href="#">Scholar</a>
+          <a href="#">LinkedIn</a>
+          <a href="#">Email</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Faculty 4 -->
+    <div class="col-md-4">
+      <div class="team-card text-center p-3">
+        <img src="images/member4.jpg" class="rounded-circle mb-2" width="100" height="100">
+        <h3>Dr. James Wright</h3>
+        <p class="role">Research Scientist</p>
+        <p>Machine Learning & Cybersecurity.</p>
+        <div class="mb-2">
+          <span class="tag">Machine Learning</span>
+          <span class="tag">Cybersecurity</span>
+        </div>
+        <div class="social-row">
+          <a href="#">Scholar</a>
+          <a href="#">GitHub</a>
+          <a href="#">Email</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Faculty 5 -->
+    <div class="col-md-4">
+      <div class="team-card text-center p-3">
+        <img src="images/member5.jpg" class="rounded-circle mb-2" width="100" height="100">
+        <h3>Dr. Priya Sharma</h3>
+        <p class="role">Postdoctoral Researcher</p>
+        <p>Federated Learning & Privacy AI.</p>
+        <div class="mb-2">
+          <span class="tag">Federated Learning</span>
+          <span class="tag">Privacy AI</span>
+        </div>
+        <div class="social-row">
+          <a href="#">Scholar</a>
+          <a href="#">LinkedIn</a>
+          <a href="#">Email</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Faculty 6 -->
+    <div class="col-md-4">
+      <div class="team-card text-center p-3">
+        <img src="images/member6.jpg" class="rounded-circle mb-2" width="100" height="100">
+        <h3>Dr. Li Wei</h3>
+        <p class="role">Senior Research Engineer</p>
+        <p>Graph NNs & Data Science.</p>
+        <div class="mb-2">
+          <span class="tag">Graph NNs</span>
+          <span class="tag">Data Science</span>
+        </div>
+        <div class="social-row">
+          <a href="#">Scholar</a>
+          <a href="#">GitHub</a>
+          <a href="#">Email</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+    <!-- ===== TEAM SECTION ===== -->
+<section class="container my-5">
+    <h2 class="text-center mb-4">Our Team</h2>
+
+    <div class="row g-4">
+
+        <!-- Card 1 -->
+        <div class="col-md-4">
+            <div class="role" class="card text-center p-3">
+                <img src="images/member1.jpg" class="rounded-circle mx-auto" width="100" height="100">
+                <h5 class="mt-3">Dr. Sarah Chen</h5>
+                <p class="text-muted">Professor</p>
+                <p>AI & Medical Vision expert.</p>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-md-4">
+            <div class="card text-center p-3">
+                <img src="images/member2.jpg" class="rounded-circle mx-auto" width="100" height="100">
+                <h5 class="mt-3">Prof. Ahmed Hassan</h5>
+                <p class="text-muted">Associate Professor</p>
+                <p>Robotics & AI researcher.</p>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-4">
+            <div class="card text-center p-3">
+                <img src="images/member3.jpg" class="rounded-circle mx-auto" width="100" height="100">
+                <h5 class="mt-3">Dr. Maria Lopez</h5>
+                <p class="text-muted">Professor</p>
+                <p>NLP & Multilingual AI.</p>
+            </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="col-md-4">
+            <div class="card text-center p-3">
+                <img src="images/member4.jpg" class="rounded-circle mx-auto" width="100" height="100">
+                <h5 class="mt-3">Dr. James Wright</h5>
+                <p class="text-muted">Scientist</p>
+                <p>Machine Learning expert.</p>
+            </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="col-md-4">
+            <div class="card text-center p-3">
+                <img src="images/member5.jpg" class="rounded-circle mx-auto" width="100" height="100">
+                <h5 class="mt-3">Dr. Priya Sharma</h5>
+                <p class="text-muted">Researcher</p>
+                <p>Privacy & Federated Learning.</p>
+            </div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="col-md-4">
+            <div class="card text-center p-3">
+                <img src="images/member6.jpg" class="rounded-circle mx-auto" width="100" height="100">
+                <h5 class="mt-3">Dr. Li Wei</h5>
+                <p class="text-muted">Engineer</p>
+                <p>Data Science & Graph AI.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+    <!-- Graduate Students heading -->
+    <h3 style="color: var(--navy); font-size:20px; margin:56px 0 24px; text-align:center;">
+      🎓 Graduate Students
+    </h3>
+
+    <!-- Students grid using Flexbox -->
+    <div class="students-grid">
+
+      <div class="student-card">
+        <div class="s-avatar"></div>
+        <div class="s-info">
+          <h4>Rahul Chowdhury</h4>
+          <p>PhD Student — Computer Vision<br />Advisor: Dr. Sarah Chen</p>
+        </div>
+      </div>
+
+      <div class="student-card">
+        <div class="s-avatar"></div>
+        <div class="s-info">
+          <h4>Nadia Rahman</h4>
+          <p>PhD Student — NLP<br />Advisor: Dr. Maria Lopez</p>
+        </div>
+      </div>
+
+      <div class="student-card">
+        <div class="s-avatar"></div>
+        <div class="s-info">
+          <h4>Carlos Mendez</h4>
+          <p>PhD Student — Robotics<br />Advisor: Prof. Ahmed Hassan</p>
+        </div>
+      </div>
+
+      <div class="student-card">
+        <div class="s-avatar"></div>
+        <div class="s-info">
+          <h4>Fatima Al-Zahra</h4>
+          <p>MS Student — Machine Learning<br />Advisor: Dr. James Wright</p>
+        </div>
+      </div>
+
+      <div class="student-card">
+        <div class="s-avatar"></div>
+        <div class="s-info">
+          <h4>Thomas Nguyen</h4>
+          <p>MS Student — Data Science<br />Advisor: Dr. Li Wei</p>
+        </div>
+      </div>
+
+      <div class="student-card">
+        <div class="s-avatar">👧</div>
+        <div class="s-info">
+          <h4>Aisha Patel</h4>
+          <p>PhD Student — Federated Learning<br />Advisor: Dr. Priya Sharma</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Join the lab CTA -->
+    <div class="join-box">
+      <h2>🚀 Join Our Team!</h2>
+      <p>
+        We are always looking for passionate researchers and students.
+        We offer PhD positions, Master's positions, research internships,
+        and visiting researcher slots.
+      </p>
+      <a href="#contact" class="btn btn-outline">📬 Contact Us to Apply</a>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ======================================================================
+     SECTION 7: CONTACT
+     id="contact" — anchor link #contact scrolls here
+====================================================================== -->
+<section id="contact">
+  <div class="container">
+
+    <h2 class="section-title">📬 Contact Us</h2>
+    <p class="section-sub">Get in touch for research collaboration, student inquiries, or general information</p>
+    <div class="divider"></div>
+
+    <div class="contact-layout">
+
+      <!-- LEFT: Info and map -->
+      <div class="contact-info">
+
+        <!-- Map placeholder -->
+        <div class="map-ph">
+          <div>
+            🗺️<br />
+            <strong>Google Maps Placeholder</strong><br />
+            Paste a Google Maps embed &lt;iframe&gt; here
+          </div>
+        </div>
+
+        <!-- Email -->
+        <div class="ci-item">
+          <div class="ci-icon">📧</div>
+          <div class="ci-text">
+            <h4>Email</h4>
+            <a href="mailto:ailab@university.edu">ailab@university.edu</a><br />
+            <a href="mailto:director@ailab.university.edu">director@ailab.university.edu</a>
+          </div>
+        </div>
+
+        <!-- Phone -->
+        <div class="ci-item">
+          <div class="ci-icon">📞</div>
+          <div class="ci-text">
+            <h4>Phone</h4>
+            <p>+1 (555) 234-5678</p>
+            <p>+1 (555) 234-5679 (Fax)</p>
+          </div>
+        </div>
+
+        <!-- Location -->
+        <div class="ci-item">
+          <div class="ci-icon">📍</div>
+          <div class="ci-text">
+            <h4>Location</h4>
+            <p>
+              AI Research Lab, Room 305<br />
+              CIS Department Building<br />
+              University of Technology<br />
+              123 Innovation Drive, Tech City TC 45678
+            </p>
+          </div>
+        </div>
+
+        <!-- Office hours -->
+        <div class="ci-item">
+          <div class="ci-icon">🕐</div>
+          <div class="ci-text">
+            <h4>Office Hours</h4>
+            <table class="hours-table">
+              <tr><td>Mon – Wed</td><td>9:00 AM – 5:00 PM</td></tr>
+              <tr><td>Thursday</td><td>9:00 AM – 4:00 PM</td></tr>
+              <tr><td>Friday</td><td>9:00 AM – 1:00 PM</td></tr>
+              <tr><td>Sat – Sun</td><td>Closed</td></tr>
+            </table>
+          </div>
+        </div>
+
+      </div><!-- /contact-info -->
+
+      <!-- RIGHT: Contact Form -->
+      <div class="contact-form-box">
+        <h3>✉️ Send Us a Message</h3>
+        <p>Fill in the form below and we will respond within 2 business days.</p>
+
+        <!--
+          Simple HTML form. For a real website:
+          - Set method="POST" and action="your-server-url"
+          - Or connect to a service like Formspree: action="https://formspree.io/f/your-id"
+          The "required" attribute provides built-in HTML5 validation (no JavaScript needed).
+        -->
+        <form method="post" action="#">
+
+          <div class="form-group">
+            <label for="name">Full Name *</label>
+            <input type="text" id="name" name="name"
+                   placeholder="e.g. John Doe" required />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email"
+                   placeholder="e.g. john@example.com" required />
+          </div>
+
+          <div class="form-group">
+            <label for="subject">Subject *</label>
+            <input type="text" id="subject" name="subject"
+                   placeholder="e.g. PhD Application Inquiry" required />
+          </div>
+
+          <div class="form-group">
+            <label for="inquiry">Inquiry Type</label>
+            <select id="inquiry" name="inquiry">
+              <option value="">— Select an option —</option>
+              <option>Research Collaboration</option>
+              <option>PhD / MS Application</option>
+              <option>Research Internship</option>
+              <option>Industry Partnership</option>
+              <option>General Inquiry</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message *</label>
+            <textarea id="message" name="message"
+                      placeholder="Write your message here..." required></textarea>
+          </div>
+
+          <button type="submit" class="submit-btn">🚀 Send Message</button>
+
+        </form>
+      </div><!-- /contact-form-box -->
+
+    </div><!-- /contact-layout -->
+
+    <!-- Social links row -->
+    <div class="socials-row">
+      <a href="#">🔗 Google Scholar</a>
+      <a href="#">💻 GitHub</a>
+      <a href="#">💼 LinkedIn</a>
+      <a href="#">🐦 Twitter / X</a>
+      <a href="#">📺 YouTube</a>
+      <a href="#">📧 Newsletter</a>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ======================================================================
+     FOOTER
+====================================================================== -->
+<footer>
+  <ul class="footer-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#research">Research</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#publications">Publications</a></li>
+    <li><a href="#team">Team</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <p>© 2025 AI Research Lab | CIS Department | University of Technology</p>
+  <p style="margin-top:6px;">Built with pure HTML5 &amp; CSS3 — No JavaScript, No Bootstrap</p>
+</footer>
+
+
+</body>
+</html>
